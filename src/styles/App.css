@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+.App *{
+  border-radius: 3px;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vw;
+  color:rgb(238, 238, 238);
+  width: 100vw;
+  background: #040b3d;
+  /* background: rgb(29,31,33) */
+}
+@keyframes scale{
+  0%,100%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.01);
+  }
+}
+
+.Logo{
+  height: 20vh;
+  width: 20vw;
+  border-start-start-radius: 30%;
+}
+@import url('https://fonts.googleapis.com/css?family=Arvo|Assistant&display=swap');
+
+.Info{
+  background-color:#22222234;
+  font-size: 1.7vw;
+  text-align: center;
+  padding: 5vh 35vw 5vh 35vw;
+}
+
+.Technologies{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
+  width: 100vw;
+}
+
+.Technologies *{
+  z-index: 2;
+}
+.App div :hover{
+  /* background-color: aqua; */
+  animation: scale 0.5s ;
+}
+
+.Technologies div:nth-of-type(1) {
+  padding:2vh 10vw 2vh 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Technologies div:nth-of-type(1) p {
+  background-color:#2222224f;
+  font-size: 2vw;
+  padding:3%;
+}
+.Technologies div:nth-of-type(2) {
+  background-color:#2222224f;
+  color:#f5f5f5;
+  padding:2vh 1vw 2vh 1vw;
+  width: 45vw;
+  height: auto;
+  font-size: 1.8vw;
+  font-family: 'Assistant', serif;
+}
+.Background{
+  background-color: #f5f5f510;
+    height: 50vh;
+    width: 90vw;
+    margin-left: 5vw;
+    position: absolute;
+    z-index: 1;
+}
+.Container{
+  padding: 2%;
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Container .Title{
+  background-color:#040e4c;
+  margin:1%;
+  padding:2% 0% 2% 0%;
+}
+.SoftList{
+  display:inline-block;
+  background-color: #737373;
+  height: auto;
+  width:30vw;
+  /* font-family: 'Arvo', serif; */
+  font-size: 2vw;
+}
+.SoftList p{
+   text-align: center;
+}
+.ShortStory{
+  background-color:#22222271;
+  height: auto;
+  font-size: 1.7vw;
+  /* font-family: 'Arvo', serif; */
+  padding: 2% 20vw 2% 20vw;
+}
+.Title{
+  background-color: #040e4c;
+  /* background-color:#22222271; */
+  margin-top:1%;
+  padding: 1% 3% 1% 3%;
+  font-size:2.3vw;
+  width: auto;
+}
+.SocialMedia{
+  display: flex;
+  justify-items: space-between;
+  flex-direction: row;
+  padding:1%;
+}
+.SocialMedia div{
+  border-radius: 100%;
+  background-color:#22222271;
+  margin: 1% 3% 1% 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  *{
+    font-size:2vw;
+  }
+  .Info p{
+    width: 70vw;
+    font-size:2.5vw;
+  }
+  .Title p{
+    font-size:2.8vw;
+  }
+  .Technologies div:nth-of-type(1) p{
+    font-size:3vw;
+  }
+  .Technologies div:nth-of-type(2) p{
+    font-size:2.6vw;
+  }
+  .Container {
+    flex-direction: column;
+    width: auto;
+  }
+  .SoftList{
+    width: 50vw;
+    margin:1vh auto 1vh auto;
+ }
+ .Container .Title{
+    width: 50vw;
+    margin:1vh auto 1vh auto;
+ }
+}
+
+
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}

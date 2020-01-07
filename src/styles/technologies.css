@@ -1,0 +1,18 @@
+.my-node-enter {
+  opacity: 0;
+  color: brown;
+}
+.my-node-enter-active {
+  opacity: 1;
+  color:blueviolet;
+  transition: opacity 5000ms;
+}
+.my-node-exit {
+  color:green;
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  color:green;
+  transition: opacity 3000ms;
+}
