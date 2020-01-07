@@ -21,10 +21,10 @@ class Technologies extends React.Component {
         <Title title="Technologies that I'm capable of going in a minute "/>
         <div className="Technologies" style={{animation:`fadeIn 1s`}}>
               <div>
-                <p onMouseOver={(ev) => this.alert1(0)}>Javascript</p>
-                <p onMouseOver={(ev) => this.alert1(1)}>Python</p>
-                <p onMouseOver={(ev) => this.alert1(2)}>C</p>
-                <p onMouseOver={(ev) => this.alert1(3)}>Postgreesql</p>
+                <p onMouseOver={(ev) => this.alert1(0)} style={{color:"rgb(210,170,122)"}}>Javascript</p>
+                <p onMouseOver={(ev) => this.alert1(1)} style={{color:"rgb(127,188,76)"}}>Python</p>
+                <p onMouseOver={(ev) => this.alert1(2)} style={{color:"rgb(78,128,173)"}}>Django</p>
+                <p onMouseOver={(ev) => this.alert1(3)} style={{color:"rgb(94,217,254)"}}>React</p>
               </div>
               <div>
                 <p>{this.state.display}</p>

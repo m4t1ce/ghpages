@@ -6,7 +6,7 @@ class Tools extends React.Component {
       <div className="SoftList">
         <ul>
           <li>VsCode</li>
-          <li>Github</li>
+          <li style={{color:"rgb(151,158,175"}}>Github</li>
           <li>Pycharm</li>
           <li>Arduino</li>
           <li>Touchpad</li>

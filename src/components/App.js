@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/App.css';
-import Logo from "./Logo"
 import Info from "./Info"
 import Technologies from "./Technologies"
 import SoftList from "./SoftList"
@@ -14,8 +13,8 @@ import { Parallax, Background } from 'react-parallax';
 function App() {
   return (
     <div className="App">
-        <Parallax bgImage={require('../images/image1.png')} strength={300}>
-          <div className="Parallax" style={{ width:"100vw", height: "79vh"}}>
+        <Parallax bgImage={require('../images/image1.png')} strength={600}>
+          <div className="Parallax" style={{ width:"100vw", height: "60vh"}}>
           </div>
         </Parallax>
       <Info/>
