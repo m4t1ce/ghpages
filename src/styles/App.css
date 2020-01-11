@@ -119,14 +119,16 @@
 }
 .SocialMedia{
   display: flex;
-  justify-items: space-between;
   flex-direction: row;
   padding:1%;
 }
 .SocialMedia div{
   border-radius: 100%;
-  /* background-color:#22222271; */
   margin: 1% 3% 1% 3%;
+  height: 5vh;  
+}
+.SocialMedia img{
+  height: 3vw;
 }
 
 @media only screen and (max-width: 600px) {

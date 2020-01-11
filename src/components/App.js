@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
         <Parallax bgImage={require('../images/image1.png')} strength={600}>
-          <div className="Parallax" style={{ width:"100vw", height: "60vh"}}>
+          <div className="Parallax" style={{ width:"100vw", height: "55vh"}}>
           </div>
         </Parallax>
       <Info/>
