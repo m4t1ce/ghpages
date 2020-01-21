@@ -7,8 +7,8 @@ import ShortStory from "./ShortStory"
 import Title from "./Title"
 import Tools from "./Tools"
 import SocialMedia from "./SocialMedia"
+import Projects from "./Projects"
 import { Parallax, Background } from 'react-parallax';
-
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
             </div>
         </div>
       </Parallax>
-
+      <Projects />
       <Title title="Short Story"/>
       <ShortStory />
       <SocialMedia />
