@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import projects from '../data/projects'
-
+import data from '../data/data'
+import Project from './Project'
 class Projects extends React.Component {
     render() {
 
       return ( <div>
-          <h1>asd</h1>
+          <div>
+                    {
+                    data.projects.map(project =>{
+                        return <Project key={project.title} project={project}/>
+                    })
+                    }
+                </div>
       </div>
       )
   }}

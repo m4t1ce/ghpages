@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import animate from './animate'
 import '../styles/technologies.css'
 import Title from './Title'
+import data from '../data/data'
 class Technologies extends React.Component {
   constructor(props) {
     super(props)
