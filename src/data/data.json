@@ -1,9 +1,7 @@
 {
     "projects":[
-      {"title":"Javascript1","link":"x","description":"JS"},
-      {"title":"Python", "description":"Smith"},
-      {"title":"Peter", "description":"Jones"},
-      {"title":"Peter", "description":"Jones"},
-      {"title":"Peter", "description":"Jones"}
+      {"title":"React","link":"https://digitalstore.netlify.com/","description":"React Gatsby Stripe Netlify","img":"../images/git.png"},
+      {"title":"React","link":"https://djherbertmusic-f0740.firebaseapp.com/", "description":"React portfolio","img":"../images/git.png"},
+      {"title":"React","link":"https://algorytmymedyczne.netlify.com/", "description":"React algorytmy medyczne dla studentów","img":"../images/git.png"}
     ]
     }
